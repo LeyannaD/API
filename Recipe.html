@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/c8f7c3ebec.js" crossorigin="anonymous"></script>
+    
+    <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--Bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Scripts-->
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jenna's Recipe</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Recipe.html">Recipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Shop.html">Shop</a>
+            </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!---END OF NAV ----->
+    <center>
+      <br>
+  <div class= "recipe">
+    <h3>Ingredients:</h3>
+    <label for="Ingredient1">First Ingredient: </label>
+    <input class="Ingredient1" placeholder="your answer">
+    <label for="Ingredient2">Second Ingredient: </label>
+    <input class="Ingredient2" placeholder="your answer">
+    <label for="Ingredient2">Third Ingredient: </label>
+    <input class="Ingredient3" placeholder="your answer">
+
+    <br>
+
+    <button class="submitRecipe" onclick="letSee()">Submit </button>
+  </div>
+
+  <h2 class="result"></h2>
+  <img class="playerChoice" src="">
+  
+  <h2 class="instro"></h2>
+
+    <h1>Jenna's Favorite Recipes</h1>
+    <div class="flex-container">         
+          <div class="flex-item">
+            <!-- item image -->
+            <div class="img-container">
+            <img src="https://www.lactaid.com/sites/lactaid_us/files/recipe-images/mac-and-cheese-website.png" alt="Mac and chesse">
+            </div>        
+          <div class="flex-item">
+            <!-- item image -->
+            <div class="img-container">
+            <img src="https://i.pinimg.com/736x/91/29/a6/9129a6b9862ca3eabe62f6658053b116.jpg" alt="Chicken Alfredo" >
+            </div>       
+         <div class="flex-item">
+            <!-- item image -->
+            <div class="img-container">
+            <img src="https://selecthealth.org/-/media/selecthealth/blogs/post/2020/05/miso_soup_blog_lg.ashx" alt=" Miso Soup ">
+            </div>       
+           <div class="flex-item">
+            <!-- item image -->
+            <div class="img-container">
+            <img src="https://i.ytimg.com/vi/pwmRuzV_fOk/maxresdefault.jpg" alt="Curry Chicken">
+            </div>
+             </div>
+         </div>
+          </div>
+          </div>
+    </div>
+      
+           </center>
+  <!--Footer-->
+    <footer>
+      <div class="row">
+        <div class="col-6">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-house-user"></i><a href="https://www.google.com/maps/place/2124+97th+St,+East+Elmhurst,+NY+11369/@40.764536,-73.8748727,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25f96b7221abb:0xdd5f2f6f8adb46b3!8m2!3d40.764532!4d-73.872684">2124 97th Street, NY, USA</a></p>
+          <p><i class="fas fa-phone"></i><a href="tel:(212)-334-7813">(212)-334-7813</a></p>
+        </div>
+        <div class="col-6">
+          <h3>Social Media</h3>
+          <p><i class="fab fa-instagram"></i><a href="https://www.instagram.com/?hl=en">@ReciepeOnlineBook</a></p>
+          <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_nav-header-join">@CookBooks</a</p>
+        </div>
+      </div>
+    </footer>
+        </div>
+    </div>
+  </body>
+</html>
+           
